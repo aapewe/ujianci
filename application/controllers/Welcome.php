@@ -30,8 +30,12 @@ class Welcome extends CI_Controller
 
     public function tampil()
     {
-        $nama = 'tata';
+        $nama = 'Agus';
         $blade = new Blade(VIEWPATH, APPPATH . 'cache');
         echo $blade->make('tampil', ['nama' => $nama])->render();
+    }
+        $umur = '';
+        $blade = new blade (Viempath, APPPath . 'cache');
+        echo $blade->make'tampil, ['umur' => $umur]->render();
     }
 }
